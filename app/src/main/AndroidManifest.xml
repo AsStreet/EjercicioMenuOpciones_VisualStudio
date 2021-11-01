@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ejerciciomenuopciones">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EjercicioMenuOpciones">
+        <activity
+            android:name=".Activity.ScrollingDAM"
+            android:exported="true"
+            android:label="@string/title_activity_scrolling_dam"
+            android:theme="@style/Theme.EjercicioMenuOpciones.NoActionBar" />
+        <activity
+            android:name=".Activity.ScrollingDAW"
+            android:exported="true"
+            android:label="@string/title_activity_scrolling_daw"
+            android:theme="@style/Theme.EjercicioMenuOpciones.NoActionBar" />
+        <activity
+            android:name=".Activity.ScrollingASIR"
+            android:exported="true"
+            android:label="@string/title_activity_scrolling_asir"
+            android:theme="@style/Theme.EjercicioMenuOpciones.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
